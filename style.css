@@ -8,7 +8,7 @@
 
 body {
     color: #333;
-    background-color: #008000;
+    background-color: green;
 }
 
 /* Encabezado y Navegación */
@@ -24,7 +24,7 @@ nav {
 }
 
 nav h1 {
-    color: #fff;
+    color: white;
     font-size: 1.5rem;
 }
 
