@@ -1,0 +1,117 @@
+/* Estilos Generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    color: #333;
+    background-color: #f3f3f3;
+}
+
+/* Encabezado y Navegación */
+header {
+    background-color: #0A3D62;
+    padding: 1rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h1 {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 1.5rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Sección de Hero */
+.hero {
+    background-image: url('images/fondo-cancha.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 5rem 1rem;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+.cta-button {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.8rem 1.5rem;
+    background-color: #1B9CFC;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.cta-button:hover {
+    background-color: #0A3D62;
+}
+
+/* Secciones */
+section {
+    padding: 3rem 1rem;
+    text-align: center;
+}
+
+.about, .reservas, .galeria, footer {
+    background-color: #fff;
+    margin: 1rem auto;
+    max-width: 800px;
+    border-radius: 8px;
+    padding: 2rem;
+}
+
+.gallery-container {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.gallery-container img {
+    width: 100%;
+    max-width: 250px;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: #0A3D62;
+    color: #fff;
+    padding: 1.5rem;
+}
+
+footer p {
+    margin: 0.5rem 0;
+}
